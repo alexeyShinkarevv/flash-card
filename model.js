@@ -79,8 +79,8 @@ const gameQuestions2 = [
   {
     type: "input",
     name: "question10",
-    message: "Высочайшая точка над уровнем моря в Африке? ",
-    answers: "килиманджаро",
+    message: "Высочайшая точка над уровнем моря в Африке?",
+    answer: "килиманджаро",
     filter: (answer) => answer.toLowerCase(),
   },
 ];
