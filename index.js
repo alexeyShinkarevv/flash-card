@@ -17,11 +17,8 @@ class Hello {
 // }
 
 async function startGame() {
-  const r = new Hello();
-  const welcome = await inquirer.prompt(Hello);
-  console.log("welcome");
+  const r = await inquirer.prompt(Hello);
+  console.log;
 }
 
 startGame();
-git;
-//Darck souls
